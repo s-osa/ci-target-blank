@@ -1,10 +1,15 @@
 {
   "manifest_version": 2,
   "name": "CI Target Blank",
+  "short_name": "CI_blank",
   "description": "Open GitHub CI icon links in another tab.",
   "version": "0.0.1",
   "author": "OSA Shunsuke",
-  "icons": {"128": "img/icon_128.png"},
+  "icons": {
+    "16": "img/icon_16.png",
+    "48": "img/icon_48.png",
+    "128": "img/icon_128.png"
+  },
 
   "content_scripts": [
     {
